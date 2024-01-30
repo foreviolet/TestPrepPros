@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Basic Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="code.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="https://codehs.com/uploads/629344d55e16f4dfc0cbe70dc1c908ed">
+
+    </head>
+    <body>
+        <div class="container1">
+            <header class="headerwrapper">
+                <img class="headerpic" src="logo.png" alt="website logo">
+                <div class="headertext">
+            <h1>Test Prep Pros</h1>
+            <h3>Be Ready for the ACT & SAT</h3>
+                </div>
+            </header>
+            
+            <nav id="flex-nav">
+                <a href="#" class="toggleNav">&#9776; Menu</a> <!--This will only be visible less than 480px wide-->
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tests.html">Tests</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <h3>Contact Us</h3>
+                    Use this form to allow us to get in touch with you within 1 business day!<br>
+                    * = Required field
+                        <form class="nestedgrid2"
+                            autocomplete="off"
+                            action="https://formspree.io/f/mwkgvpal"
+                            method="POST">
+                        <div class="div1">
+                            Name*<br>
+                                <input type="text" size="30" name="fullname" placeholder="Jane Doe" autofocus required spellcheck="false" autocomplete="off"><br>
+                            Email*<br>
+                                <input type="email" size="30" name="email"><br>
+                            Phone*<br>
+                                <input type="tel" size="30" name="phone"><br>
+                            Personal Website<br>
+                                <input type="url" size="30" name="website"><br>
+                        </div>
+                        <div class="div2">
+                            Current High School<br>
+                                <input type="text" size="30" name="school"><br>
+                            Expected date of entry<br>
+                                <input type="date" name="doe"><br>
+                            Number of days/week desired<br>
+                                <input type="number" name="days"><br>
+                                <input type="submit" value="Help Me Boost My Scores!" class="button">
+                        </div>
+                        </form>
+                        
+                    <div class="call">
+                        <p>Or Call Us</p><br>
+                        <p>1-888-TESTPRO</p>
+                    </div>
+            </main>
+         
+            <footer>
+            <p>&#169; Test Prep Pros</p>
+            <p>3737 North Street</p>
+            <p>Beaverbrook, OH 45400</p>
+            </footer>
+        </div>
+    </body>
+</html>
